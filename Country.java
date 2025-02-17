@@ -5,7 +5,7 @@
 // Author Petr Bowles                                                              
 // *********************************************************************************
 
-package ds_ass03a_bowlesp;
+package ds_ass03b_bowlesp;
 import javax.swing.JOptionPane; // This package facilitates dialog boxes, etc.
 
 public class Country 
@@ -13,7 +13,7 @@ public class Country
  // Define Data Items
  protected int cNumber;
  protected String cName;
- protected double cGNI, cPCI, cStandard;
+ protected double cGNI, cPCI;
  protected int cPopulation;
    
  // Constructor
@@ -60,7 +60,7 @@ public class Country
     public String printMe()
     {
      String printString = "Country Number: " + cNumber + "\n" + "Name: " + cName + "\n" +
-       "Gross National Income: " + cGNI + "\n" + "Population: " + cPopulation + "\n" + "Per Capita Income: " + cPCI + "\n" + "Standard Deviation: " + cStandard;
+       "Gross National Income: " + cGNI + "\n" + "Population: " + cPopulation + "\n" + "Per Capita Income: " + cPCI + "\n" + "Standard Deviation: ";
      return printString;
      } // End of Print Specification Method
     
